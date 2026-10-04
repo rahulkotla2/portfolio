@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="80" y="120" width="920" height="640" rx="24" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <rect x="80" y="120" width="920" height="56" rx="24" fill="#1e293b"/>
+  <circle cx="120" cy="148" r="10" fill="#ef4444"/><circle cx="150" cy="148" r="10" fill="#f59e0b"/><circle cx="180" cy="148" r="10" fill="#22c55e"/>
+  <text x="220" y="158" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="22">Coach Matching - BetterLesson</text>
+  <rect x="120" y="220" width="380" height="220" rx="16" fill="#1e293b"/>
+  <text x="150" y="270" fill="#38bdf8" font-family="system-ui,sans-serif" font-size="28" font-weight="600">Match Score</text>
+  <text x="150" y="340" fill="#f8fafc" font-family="system-ui,sans-serif" font-size="64" font-weight="700">94%</text>
+  <text x="150" y="390" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="20">Coach to Teacher eligibility</text>
+  <rect x="540" y="220" width="420" height="220" rx="16" fill="#1e293b"/>
+  <text x="570" y="270" fill="#a78bfa" font-family="system-ui,sans-serif" font-size="28" font-weight="600">Production</text>
+  <text x="570" y="340" fill="#f8fafc" font-family="system-ui,sans-serif" font-size="64" font-weight="700">20+</text>
+  <text x="570" y="390" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="20">High-priority fixes in 2 weeks</text>
+  <rect x="120" y="480" width="840" height="240" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="150" y="530" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="24" font-weight="600">React | Java | PostgreSQL | AWS</text>
+  <text x="150" y="580" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="20">End-to-end matching workflows for K-12 coaches</text>
+  <text x="150" y="630" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="20">Invoicing | Reviews | Approval flows</text>
+  <text x="80" y="880" fill="#f8fafc" font-family="system-ui,sans-serif" font-size="42" font-weight="700">Coach Matching System</text>
+  <text x="80" y="940" fill="#38bdf8" font-family="system-ui,sans-serif" font-size="28">EdTech - K-12 Professional Learning</text>
+  <text x="80" y="1000" fill="#64748b" font-family="system-ui,sans-serif" font-size="22">rahul_kotla | portfolio</text>
+</svg>

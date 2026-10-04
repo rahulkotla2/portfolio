@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1f1f1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="80" y="120" width="920" height="620" rx="16" fill="#0d0d0d" stroke="#D71921" stroke-width="2"/>
+  <rect x="80" y="120" width="920" height="48" fill="#1a1a1a"/>
+  <circle cx="110" cy="144" r="8" fill="#D71921"/><circle cx="135" cy="144" r="8" fill="#ff6b6b"/><circle cx="160" cy="144" r="8" fill="#444"/>
+  <text x="190" y="152" fill="#888" font-family="monospace" font-size="18">terminal - agent workflow</text>
+  <text x="110" y="220" fill="#D71921" font-family="monospace" font-size="22">$ run agent --task jira-stories</text>
+  <text x="110" y="270" fill="#4ade80" font-family="monospace" font-size="20">+ Parsed 12 stories, drafted comments</text>
+  <text x="110" y="310" fill="#4ade80" font-family="monospace" font-size="20">+ Automated repetitive engineering tasks</text>
+  <text x="110" y="350" fill="#94a3b8" font-family="monospace" font-size="20">+ Reduced context-switching across teams</text>
+  <text x="110" y="420" fill="#e5e5e5" font-family="monospace" font-size="22">$ npm run ship-faster</text>
+  <text x="110" y="470" fill="#fbbf24" font-family="monospace" font-size="20">AI agents | Custom skills | Jira automation</text>
+  <rect x="110" y="520" width="400" height="8" rx="4" fill="#333"/>
+  <rect x="110" y="520" width="320" height="8" rx="4" fill="#D71921"/>
+  <text x="110" y="580" fill="#666" font-family="monospace" font-size="18">Throughput up | Velocity up</text>
+  <text x="80" y="820" fill="#fff" font-size="40" font-weight="700">AI Engineering Workflows</text>
+  <text x="80" y="880" fill="#D71921" font-size="28">Developer Productivity</text>
+  <text x="80" y="940" fill="#666" font-size="22">Nothing OS vibes - dot matrix energy</text>
+</svg>

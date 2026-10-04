@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#E91429"/>
+  <ellipse cx="100" cy="78" rx="52" ry="28" fill="#fff"/>
+  <rect x="48" y="78" width="104" height="36" fill="#fff"/>
+  <ellipse cx="100" cy="114" rx="52" ry="28" fill="#fff"/>
+  <ellipse cx="72" cy="100" rx="20" ry="12" fill="#f5c6cb"/>
+  <rect x="68" y="130" width="64" height="48" rx="6" fill="#1a1a1a"/>
+  <rect x="76" y="140" width="48" height="6" rx="2" fill="#E91429"/>
+  <rect x="76" y="152" width="36" height="6" rx="2" fill="#ff6b7a"/>
+  <rect x="76" y="164" width="42" height="6" rx="2" fill="#ff6b7a"/>
+  <text x="100" y="192" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="11">PostgreSQL � AWS � Kafka</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#3d1a6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="60" y="100" width="960" height="700" rx="28" fill="#12081f" stroke="#6d28d9" stroke-width="2"/>
+  <text x="100" y="180" fill="#c4b5fd" font-family="system-ui,sans-serif" font-size="26" font-weight="600">DIGITAL FLEX - HQIM Platform</text>
+  <rect x="100" y="220" width="260" height="140" rx="12" fill="#2e1065"/>
+  <text x="130" y="270" fill="#a78bfa" font-size="18">Teachers</text>
+  <text x="130" y="320" fill="#fff" font-size="48" font-weight="700">12.4k</text>
+  <rect x="400" y="220" width="260" height="140" rx="12" fill="#2e1065"/>
+  <text x="430" y="270" fill="#a78bfa" font-size="18">Districts</text>
+  <text x="430" y="320" fill="#fff" font-size="48" font-weight="700">48</text>
+  <rect x="700" y="220" width="280" height="140" rx="12" fill="#2e1065"/>
+  <text x="730" y="270" fill="#a78bfa" font-size="18">Insights</text>
+  <text x="730" y="320" fill="#fff" font-size="48" font-weight="700">Live</text>
+  <rect x="100" y="400" width="880" height="360" rx="16" fill="#1e1b4b"/>
+  <polyline points="140,680 220,620 320,640 420,560 520,580 620,480 720,500 820,420 920,440" fill="none" stroke="#8b5cf6" stroke-width="6"/>
+  <circle cx="920" cy="440" r="10" fill="#a78bfa"/>
+  <text x="100" y="450" fill="#e9d5ff" font-size="22">Class Insights | Student Analytics | SSO/LMS</text>
+  <text x="60" y="880" fill="#fff" font-family="system-ui,sans-serif" font-size="40" font-weight="700">District-scale dashboards</text>
+  <text x="60" y="940" fill="#c4b5fd" font-size="28">Vue | Nuxt | Pinia | FastAPI</text>
+  <text x="60" y="1000" fill="#7c3aed" font-size="22">UI Lead - Quantrium Tech</text>
+</svg>

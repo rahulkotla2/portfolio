@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#1DB954"/>
+  <circle cx="100" cy="88" r="28" fill="none" stroke="#fff" stroke-width="6"/>
+  <ellipse cx="100" cy="88" rx="28" ry="10" fill="none" stroke="#fff" stroke-width="5" transform="rotate(60 100 88)"/>
+  <ellipse cx="100" cy="88" rx="28" ry="10" fill="none" stroke="#fff" stroke-width="5" transform="rotate(-60 100 88)"/>
+  <circle cx="100" cy="88" r="6" fill="#fff"/>
+  <text x="100" y="155" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="18" font-weight="700">Frontend</text>
+  <text x="100" y="178" text-anchor="middle" fill="#b3f0c9" font-family="system-ui,sans-serif" font-size="12">Vue � React � Nuxt</text>
+</svg>

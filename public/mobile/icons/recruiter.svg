@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="44" fill="#E8E8E8"/>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+    <circle cx="6" cy="6" r="1.2" fill="#D71921" opacity="0.35"/>
+  </pattern>
+  <rect width="192" height="192" rx="44" fill="url(#dots)"/>
+  <rect x="48" y="64" width="96" height="72" rx="8" fill="#fff" stroke="#D71921" stroke-width="4"/>
+  <path fill="none" stroke="#D71921" stroke-width="4" d="M64 64V48a32 32 0 0 1 64 0v16"/>
+  <circle cx="96" cy="100" r="10" fill="#D71921"/>
+  <text x="96" y="168" text-anchor="middle" fill="#1a1a1a" font-family="system-ui,sans-serif" font-size="16" font-weight="600">RK</text>
+</svg>

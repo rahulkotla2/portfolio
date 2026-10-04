@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="70" y="110" width="940" height="680" rx="24" fill="#0c1f1e" stroke="#14b8a6" stroke-width="2"/>
+  <text x="110" y="180" fill="#5eead4" font-family="system-ui,sans-serif" font-size="26" font-weight="600">FinTech Document Processing</text>
+  <rect x="110" y="220" width="400" height="280" rx="16" fill="#134e4a"/>
+  <text x="140" y="280" fill="#99f6e4" font-size="20">Bank Statements</text>
+  <text x="140" y="350" fill="#fff" font-size="56" font-weight="700">-40%</text>
+  <text x="140" y="400" fill="#94a3b8" font-size="18">manual processing</text>
+  <rect x="540" y="220" width="430" height="280" rx="16" fill="#134e4a"/>
+  <text x="570" y="280" fill="#99f6e4" font-size="20">Digital KYC</text>
+  <text x="570" y="350" fill="#fff" font-size="56" font-weight="700">-60%</text>
+  <text x="570" y="400" fill="#94a3b8" font-size="18">verification effort</text>
+  <rect x="110" y="540" width="860" height="200" rx="16" fill="#042f2e" stroke="#0d9488"/>
+  <text x="140" y="590" fill="#ccfbf1" font-size="22">Kafka | PDF.js | OAuth | AES encryption</text>
+  <text x="140" y="640" fill="#94a3b8" font-size="20">Geolocation | Selfie | E-signature | 500+ accounts</text>
+  <text x="70" y="880" fill="#fff" font-size="40" font-weight="700">Modular FinTech interfaces</text>
+  <text x="70" y="940" fill="#5eead4" font-size="28">React | Vue | FastAPI</text>
+  <text x="70" y="1000" fill="#14b8a6" font-size="22">rahul_kotla | shipped</text>
+</svg>
