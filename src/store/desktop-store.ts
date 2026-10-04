@@ -147,10 +147,8 @@ export const useDesktopStore = create<DesktopStore>((set, get) => ({
       return {
         desktopSize: { width, height },
         windows: s.windows.map((w) => {
-          if (w.maximized || w.snapSide === "maximize") return { ...w, x: 0, y: 0, width, height };
-          if (w.snapSide && w.snapSide !== "maximize") {
-            return { ...w, ...snapBounds(w.snapSide, width, height) };
-          }
+          if (w.maximized) return { ...w, x: 0, y: 0, width, height };
+          if (w.snapSide) return { ...w, ...snapBounds(w.snapSide, width, height) };
           const fitted = ensureWindowVisible(w.x, w.y, w.width, w.height, width, height);
           return { ...w, ...fitted };
         }),
