@@ -6,6 +6,7 @@ import { InstagramApp } from "./InstagramApp";
 import { LinkedInApp } from "./LinkedInApp";
 import { SpotifyApp } from "./SpotifyApp";
 import { FilesApp } from "./FilesApp";
+import { GmailApp } from "./GmailApp";
 import { RecruiterApp } from "./RecruiterApp";
 
 interface MobileAppRouterProps {

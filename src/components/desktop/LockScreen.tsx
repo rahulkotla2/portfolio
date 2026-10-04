@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useDesktopStore } from "@/store/desktop-store";
 import { profile } from "@/data/portfolio";
@@ -28,6 +28,12 @@ export function LockScreen() {
     return () => clearInterval(interval);
   }, []);
 
+  const handleUnlock = useCallback(() => {
+    if (signingIn) return;
+    setSigningIn(true);
+    setTimeout(() => unlockLockScreen(), 900);
+  }, [signingIn, unlockLockScreen]);
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Enter" || e.key === " ") {
@@ -37,13 +43,7 @@ export function LockScreen() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [signingIn]);
-
-  const handleUnlock = () => {
-    if (signingIn) return;
-    setSigningIn(true);
-    setTimeout(() => unlockLockScreen(), 900);
-  };
+  }, [handleUnlock]);
 
   return (
     <motion.div
